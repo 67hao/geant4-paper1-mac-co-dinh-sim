@@ -1,4 +1,4 @@
-name: Geant4 Simulation (2026_10_7_G4_papper1_mac_be_day_co_dinh)
+name: Geant4 Simulation (mac_be_day_co_dinh)
 
 on:
   workflow_dispatch:

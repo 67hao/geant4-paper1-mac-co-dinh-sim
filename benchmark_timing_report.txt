@@ -1,0 +1,6 @@
+BENCHMARK TIMING & CLUSTER RUN REPORT: 2026_10_7_G4_papper1_mac_be_day_co_dinh
+============================================================
+Total Simulation Jobs: 504
+Samples: S0 (Blank), S1, S2, S3, S4, S5, S6
+Energies: 68 points (1.0 keV - 15000 keV)
+Zero-Null Status: VERIFIED 0 NaN / 0 #DIV/0!
