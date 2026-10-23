@@ -2,174 +2,6 @@
   "haoidlemystic1": {
     "1": [
       {
-        "job_name": "S3_D20_E15000",
-        "sample": "S3",
-        "thickness_mm": 20.0,
-        "energy_kev": 15000.0,
-        "d_str": "20",
-        "e_str": "15000",
-        "macro_file": "run_S3_D20_E15000.mac",
-        "csv_filename": "S3_D20_E15000.csv",
-        "root_filename": "hist_S3_D20_E15000.root"
-      }
-    ],
-    "2": [],
-    "3": [],
-    "4": [],
-    "5": [],
-    "6": [],
-    "7": [],
-    "8": [],
-    "9": [],
-    "10": []
-  },
-  "vuicho": {
-    "1": [
-      {
-        "job_name": "S4_D20_E15000",
-        "sample": "S4",
-        "thickness_mm": 20.0,
-        "energy_kev": 15000.0,
-        "d_str": "20",
-        "e_str": "15000",
-        "macro_file": "run_S4_D20_E15000.mac",
-        "csv_filename": "S4_D20_E15000.csv",
-        "root_filename": "hist_S4_D20_E15000.root"
-      }
-    ],
-    "2": [],
-    "3": [],
-    "4": [],
-    "5": [],
-    "6": [],
-    "7": [],
-    "8": [],
-    "9": [],
-    "10": []
-  },
-  "haoidle4zk": {
-    "1": [
-      {
-        "job_name": "S4_D5_E800",
-        "sample": "S4",
-        "thickness_mm": 5.0,
-        "energy_kev": 800.0,
-        "d_str": "5",
-        "e_str": "800",
-        "macro_file": "run_S4_D5_E800.mac",
-        "csv_filename": "S4_D5_E800.csv",
-        "root_filename": "hist_S4_D5_E800.root"
-      }
-    ],
-    "2": [],
-    "3": [],
-    "4": [],
-    "5": [],
-    "6": [],
-    "7": [],
-    "8": [],
-    "9": [],
-    "10": []
-  },
-  "67hao": {
-    "1": [
-      {
-        "job_name": "S5_D20_E15000",
-        "sample": "S5",
-        "thickness_mm": 20.0,
-        "energy_kev": 15000.0,
-        "d_str": "20",
-        "e_str": "15000",
-        "macro_file": "run_S5_D20_E15000.mac",
-        "csv_filename": "S5_D20_E15000.csv",
-        "root_filename": "hist_S5_D20_E15000.root"
-      }
-    ],
-    "2": [],
-    "3": [],
-    "4": [],
-    "5": [],
-    "6": [],
-    "7": [],
-    "8": [],
-    "9": [],
-    "10": []
-  },
-  "idlemystich": {
-    "1": [
-      {
-        "job_name": "S5_D5_E800",
-        "sample": "S5",
-        "thickness_mm": 5.0,
-        "energy_kev": 800.0,
-        "d_str": "5",
-        "e_str": "800",
-        "macro_file": "run_S5_D5_E800.mac",
-        "csv_filename": "S5_D5_E800.csv",
-        "root_filename": "hist_S5_D5_E800.root"
-      }
-    ],
-    "2": [],
-    "3": [],
-    "4": [],
-    "5": [],
-    "6": [],
-    "7": [],
-    "8": [],
-    "9": [],
-    "10": []
-  },
-  "CarwynDuc": {
-    "1": [
-      {
-        "job_name": "S6_D0p5_E40",
-        "sample": "S6",
-        "thickness_mm": 0.5,
-        "energy_kev": 40.0,
-        "d_str": "0p5",
-        "e_str": "40",
-        "macro_file": "run_S6_D0p5_E40.mac",
-        "csv_filename": "S6_D0p5_E40.csv",
-        "root_filename": "hist_S6_D0p5_E40.root"
-      }
-    ],
-    "2": [],
-    "3": [],
-    "4": [],
-    "5": [],
-    "6": [],
-    "7": [],
-    "8": [],
-    "9": [],
-    "10": []
-  },
-  "laolaolaoma09": {
-    "1": [
-      {
-        "job_name": "S6_D20_E10000",
-        "sample": "S6",
-        "thickness_mm": 20.0,
-        "energy_kev": 10000.0,
-        "d_str": "20",
-        "e_str": "10000",
-        "macro_file": "run_S6_D20_E10000.mac",
-        "csv_filename": "S6_D20_E10000.csv",
-        "root_filename": "hist_S6_D20_E10000.root"
-      }
-    ],
-    "2": [],
-    "3": [],
-    "4": [],
-    "5": [],
-    "6": [],
-    "7": [],
-    "8": [],
-    "9": [],
-    "10": []
-  },
-  "Bethwl": {
-    "1": [
-      {
         "job_name": "S6_D20_E15000",
         "sample": "S6",
         "thickness_mm": 20.0,
@@ -191,20 +23,92 @@
     "9": [],
     "10": []
   },
+  "vuicho": {
+    "1": [],
+    "2": [],
+    "3": [],
+    "4": [],
+    "5": [],
+    "6": [],
+    "7": [],
+    "8": [],
+    "9": [],
+    "10": []
+  },
+  "haoidle4zk": {
+    "1": [],
+    "2": [],
+    "3": [],
+    "4": [],
+    "5": [],
+    "6": [],
+    "7": [],
+    "8": [],
+    "9": [],
+    "10": []
+  },
+  "67hao": {
+    "1": [],
+    "2": [],
+    "3": [],
+    "4": [],
+    "5": [],
+    "6": [],
+    "7": [],
+    "8": [],
+    "9": [],
+    "10": []
+  },
+  "idlemystich": {
+    "1": [],
+    "2": [],
+    "3": [],
+    "4": [],
+    "5": [],
+    "6": [],
+    "7": [],
+    "8": [],
+    "9": [],
+    "10": []
+  },
+  "CarwynDuc": {
+    "1": [],
+    "2": [],
+    "3": [],
+    "4": [],
+    "5": [],
+    "6": [],
+    "7": [],
+    "8": [],
+    "9": [],
+    "10": []
+  },
+  "laolaolaoma09": {
+    "1": [],
+    "2": [],
+    "3": [],
+    "4": [],
+    "5": [],
+    "6": [],
+    "7": [],
+    "8": [],
+    "9": [],
+    "10": []
+  },
+  "Bethwl": {
+    "1": [],
+    "2": [],
+    "3": [],
+    "4": [],
+    "5": [],
+    "6": [],
+    "7": [],
+    "8": [],
+    "9": [],
+    "10": []
+  },
   "coredaohaojack": {
-    "1": [
-      {
-        "job_name": "S6_D20_E2506",
-        "sample": "S6",
-        "thickness_mm": 20.0,
-        "energy_kev": 2506.0,
-        "d_str": "20",
-        "e_str": "2506",
-        "macro_file": "run_S6_D20_E2506.mac",
-        "csv_filename": "S6_D20_E2506.csv",
-        "root_filename": "hist_S6_D20_E2506.root"
-      }
-    ],
+    "1": [],
     "2": [],
     "3": [],
     "4": [],
@@ -216,19 +120,7 @@
     "10": []
   },
   "htvnhe": {
-    "1": [
-      {
-        "job_name": "S6_D20_E8000",
-        "sample": "S6",
-        "thickness_mm": 20.0,
-        "energy_kev": 8000.0,
-        "d_str": "20",
-        "e_str": "8000",
-        "macro_file": "run_S6_D20_E8000.mac",
-        "csv_filename": "S6_D20_E8000.csv",
-        "root_filename": "hist_S6_D20_E8000.root"
-      }
-    ],
+    "1": [],
     "2": [],
     "3": [],
     "4": [],
@@ -240,19 +132,7 @@
     "10": []
   },
   "haohue27": {
-    "1": [
-      {
-        "job_name": "S6_D5_E800",
-        "sample": "S6",
-        "thickness_mm": 5.0,
-        "energy_kev": 800.0,
-        "d_str": "5",
-        "e_str": "800",
-        "macro_file": "run_S6_D5_E800.mac",
-        "csv_filename": "S6_D5_E800.csv",
-        "root_filename": "hist_S6_D5_E800.root"
-      }
-    ],
+    "1": [],
     "2": [],
     "3": [],
     "4": [],
