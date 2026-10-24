@@ -253,7 +253,7 @@ G4VPhysicalVolume* MyDetectorConstruction::Construct() {
 	G4Tubs* solidCollimator2 = new G4Tubs("Collimator2", GEO::Collimator2_InnerRadius, GEO::Collimator2_OutterRadius, GEO::Collimator2_Height / 2, 0, 360 * deg);
 	G4LogicalVolume* Collimator2_LV = new G4LogicalVolume(solidCollimator2, NIST->FindOrBuildMaterial("G4_Pb"), "Collimator2_LV");
 	G4double Collimator2_PosZ = Sample_PosZ + fSample_Thickness / 2 + GEO::Collimator2_Height / 2;
-	//new G4PVPlacement(nullptr, G4ThreeVector(0, 0, Collimator2_PosZ), Collimator2_LV, "Collimator2", World_LV, false, 0, true);
+	new G4PVPlacement(nullptr, G4ThreeVector(0, 0, Collimator2_PosZ), Collimator2_LV, "Collimator2", World_LV, false, 0, true);
 
 
 	// ===============================================

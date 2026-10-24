@@ -53,14 +53,14 @@ def upload_file_to_drive(service, file_path: Path, parent_folder_id: str):
     q = f"'{parent_folder_id}' in parents and name = '{file_path.name}' and trashed = false"
     for attempt in range(5):
         try:
-            res = service.files().list(q=q, fields="files(id)").execute().get("files", [])
+            res = service.files().list(q=q, supportsAllDrives=True, includeItemsFromAllDrives=True, fields="files(id)").execute().get("files", [])
             media = MediaFileUpload(str(file_path), resumable=True)
             if res:
                 f_id = res[0]["id"]
-                service.files().update(fileId=f_id, media_body=media).execute()
+                service.files().update(fileId=f_id, media_body=media, supportsAllDrives=True).execute()
                 return f_id
             body = {"name": file_path.name, "parents": [parent_folder_id]}
-            new_f = service.files().create(body=body, media_body=media, fields="id").execute()
+            new_f = service.files().create(body=body, media_body=media, supportsAllDrives=True, fields="id").execute()
             return new_f["id"]
         except Exception as e:
             time.sleep(1.0 + random.uniform(0.5, 2.0))
@@ -148,7 +148,7 @@ def main():
         for _ in range(3):
             try:
                 q_check = f"'{dest_flux_folder}' in parents and name = '{csv_filename}' and trashed = false"
-                res_chk = service.files().list(q=q_check, fields="files(id)").execute().get("files", [])
+                res_chk = service.files().list(q=q_check, supportsAllDrives=True, includeItemsFromAllDrives=True, fields="files(id)").execute().get("files", [])
                 if res_chk:
                     is_on_drive = True
                 break
